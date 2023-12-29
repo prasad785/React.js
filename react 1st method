@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>React App</title>
+    <!-- Include React and Babel libraries -->
+    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
+</head>
+<body>
+    <div id="root"></div> <!-- This is where the React component will be rendered -->
+
+    <!-- Include your React code within a script block with type "text/babel" -->
+    <script type="text/babel">
+        const Welcome = () => <h1 className="greenlevel">Hello prasad</h1>;
+        ReactDOM.render(<Welcome />, document.getElementById("root"));
+    </script>
+</body>
+</html>
