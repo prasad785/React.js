@@ -1,0 +1,17 @@
+<div id="root"></div>
+
+<script type="text/babel">
+    const Welcome = (props) => {
+        const { name, wellcome } = props;
+        return (<h1 className="wellcome">{wellcome}, {name}</h1>);
+    };
+
+    const Wellcome = () => (
+        <div>
+            <Welcome name="rahul" wellcome={"hello"} />
+            <Welcome name="rahul" wellcome={"hi"} />
+        </div>
+    );
+
+    ReactDOM.render(<Wellcome />, document.getElementById("root"));
+</script>
