@@ -1,0 +1,10 @@
+npm install -g create-react-app
+create-react-app myapp --use-npm
+npm start    for start 
+
+live editing 
+Eslint
+prettier 
+beble
+webpack
+
