@@ -8,3 +8,8 @@ prettier
 beble
 webpack
 
+Live editing: Allows React components to be live reloaded.
+ESLint: Analyzes source code to report programming errors, bugs, and syntax errors.
+Prettier: Enforces a consistent style for indentation, spacing, semicolons and quotes, etc.
+Babel: Compiles JSX into Regular JavaScript
+Webpack: Stitches together a group of modules into a single file (or group of files). This process is called Bundling.
